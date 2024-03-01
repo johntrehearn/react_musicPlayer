@@ -30,6 +30,7 @@ const useMusicPlayer = () => {
     const playPreviousTrack = () => {
         let newIndex = null;
         state.currentTrackIndex === 0 ? (newIndex = state.tracks.length - 1) : (newIndex = state.currentTrackIndex - 1);
+        playTrack(newIndex)
     
     }
 

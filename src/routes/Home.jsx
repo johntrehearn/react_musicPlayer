@@ -10,7 +10,7 @@ const Home = () => {
 
     const [state, setState] = useState({
         audioPlayer: new Audio(),
-        track: [
+        tracks: [
             {
                 name: 'Sinister Music',
                 file: sinisterMusic
